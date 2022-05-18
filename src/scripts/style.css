@@ -1,0 +1,10 @@
+footer {
+    background-color: lightgrey;
+    position: relative;
+    bottom: 0;
+
+}
+
+.home-button {
+    font-size: 24px;
+}
