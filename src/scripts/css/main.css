@@ -1,6 +1,7 @@
 /* Navigation Bar */
 header {
-  background: #C00000;
+  color: #C00000;
+  display: block;
 }
 
 header:after {
@@ -16,7 +17,7 @@ header:after {
 }
 
 nav {
-  float: right;
+  text-align: right;
 }
 
 nav ul {
@@ -62,14 +63,14 @@ nav a:hover:before {
 
 
 /* About Me Page */
-
 .about {
   text-align: center;
-  margin-top: 250px;
+  margin-top: 200px;
+
+  position: relative;
 }
 
 /* Footer */
-
 footer {
   position: fixed;
   left: 0;
@@ -80,10 +81,13 @@ footer {
   text-align: center;
 }
 
-.footer {
+/* Icons */
+.icon {
+  color: #000000;
+  display: inline-block;
+  font-size: 50px;
+  padding:1%;
+
   position: relative;
-  padding-bottom: 25px;
-  width: 100%;
-  color: #00C46B;
-  text-align: center;
 }
+
